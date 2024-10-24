@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IMC</title>
+    <link rel="stylesheet" href="geral.css" media="all">
+    <link rel="stylesheet" href="pequena.css" media="screen and (max-width: 720px)">
+    <link rel="stylesheet" href="grande.css" media="screen and (max-width: 1500px)">
+</head>
+<body>
+    <div class="cabecalho">
+        <img src="imagem/download.png" alt="logo">
+    </div>
+
+
+    <div class="conteiner">
+        <div class="conteiner-textos">
+            <h1 class="titulo-h1">CALCULADORA DE ÍNDICE DE MASSA CORPORAL</h1>
+        </div>
+
+    <div class="conteiner2">
+        <input type="number" name="altura" class="altura" placeholder="altura"> + 
+        <input type="number" name="peso" class="peso">
+        <input type="button" value="calcular" class="botao" onclick="calcular()">
+
+        <div class="res">resultado</div>
+    </div>
+    
+    <script>
+        
+        function calcular(){
+            let altura1 = window.document.getElementsByClassName('altura')[0]
+            let peso1 = window.document.getElementsByClassName('peso')[0]
+            let botao = window.document.getElementsByClassName('res')[0]
+            let alt = Number(altura1.value)
+            let pes = Number(peso1.value)
+            let resultado = parseInt(pes/(alt*alt))
+            botao.innerText = resultado
+
+            
+        }
+    </script>
+    </div>
+</body>
+</html>

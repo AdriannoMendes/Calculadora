@@ -1,0 +1,26 @@
+.conteiner{
+    padding: 10px;
+}
+.cabecalho{
+    height: 40px;
+    background-color: rgba(255, 32, 3, 0.849);
+
+}
+.cabecalho img{
+    height: 45px;
+}
+.conteiner2{
+    width: 400px;
+    height: 350px;
+    background-color: rgb(27, 25, 25);
+    color: blue;
+    margin: auto;
+}
+.titulo-h1{
+    height: 5px;
+}
+input{
+    height: 30px;
+    background-color: black;
+    color: white;
+}
