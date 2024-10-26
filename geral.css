@@ -3,3 +3,32 @@
     padding: 0px;
     box-sizing: border-box;
 }
+.cabecalho{
+    background-color: white;
+}
+.conteiner-logo{
+    background-color: rgb(0, 0, 0);
+    background-image: url('imagem/logo.png');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 200px; 
+    height: 200px;
+    width: 300px;
+    margin: auto;
+    border-radius: 16px 16px 0 0;
+}
+.conteiner{
+    height: 300px;
+    width: 300px;
+    border-radius: 0 0 10px 10px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.288);
+    padding: 10px;
+}
+.titulo{
+    font-size: 16px;
+}
+.caixa-entrada-dados{
+    height: 30px;
+    width: 60px;
+}

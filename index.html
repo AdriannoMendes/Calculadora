@@ -10,18 +10,16 @@
 </head>
 <body>
     <div class="cabecalho">
-        <img src="imagem/download.png" alt="logo">
+        <div class="conteiner-logo"></div>
     </div>
 
-
     <div class="conteiner">
-        <div class="conteiner-textos">
-            <h1 class="titulo-h1">CALCULADORA DE ÍNDICE DE MASSA CORPORAL</h1>
+        <div>
+            <h1 class="titulo">CALCULADORA DE ÍNDICE DE MASSA CORPORAL</h1>
         </div>
 
     <div class="conteiner2">
-        <input type="number" name="altura" class="altura" placeholder="altura"> + 
-        <input type="number" name="peso" class="peso">
+        <input type="number" name="altura" class="altura caixa-entrada-dados" placeholder="altura">*<input type="number" name="peso" class="peso caixa-entrada-dados" placeholder="peso">
         <input type="button" value="calcular" class="botao" onclick="calcular()">
 
         <div class="res">resultado</div>
